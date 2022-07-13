@@ -8,28 +8,25 @@ class Countries extends React.Component {
         id: 1,
         name: "Iran",
         capital: "Tehran",
-        OfficialLanguage: "Farsi",
         imageSource: require("./images/Iran.JPG"),
       },
       {
         id: 2,
         name: "Australia",
         capital: "Canberra",
-        OfficialLanguage: "English",
+
         imageSource: require("./images/Australia.JPG"),
       },
       {
         id: 3,
         name: "USA",
         capital: "Washington D.C.",
-        OfficialLanguage: "English",
         imageSource: require("./images/USA.JPG"),
       },
       {
         id: 4,
         name: "Russia",
         capital: "Moscow",
-        OfficialLanguage: "Russian",
         imageSource: require("./images/Russia.JPG"),
       },
       {
@@ -41,30 +38,26 @@ class Countries extends React.Component {
       },
       {
         id: 6,
-        name: "Lebanon",
-        capital: "Beirut",
-        OfficialLanguage: "Lebanese",
-        imageSource: require("./images/Lebanon.JPG"),
+        name: "France",
+        capital: "Paris",
+        imageSource: require("./images/France.JPG"),
       },
       {
         id: 7,
         name: "Lebanon",
         capital: "Beirut",
-        OfficialLanguage: "Lebanese",
         imageSource: require("./images/Lebanon.JPG"),
       },
       {
         id: 8,
-        name: "Lebanon",
-        capital: "Beirut",
-        OfficialLanguage: "Lebanese",
-        imageSource: require("./images/Lebanon.JPG"),
+        name: "Maldives",
+        capital: "Male",
+        imageSource: require("./images/Maldives.JPG"),
       },
       {
         id: 9,
         name: "Argentina",
         capital: "Buenos Aires",
-        OfficialLanguage: "Spanish",
         imageSource: require("./images/Argentina.JPG"),
       },
     ],
@@ -80,7 +73,6 @@ class Countries extends React.Component {
             <figcaption>
               <h3>More Info</h3>
               <p>Capital: {country.capital}</p>
-              <p>Official Language: {country.OfficialLanguage}</p>
             </figcaption>
           </figure>
           // <div key={country.id} className="cardBody">

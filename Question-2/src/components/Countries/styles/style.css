@@ -12,7 +12,7 @@ html {
   font-weight: 300;
   line-height: 1.5;
   color: #444;
-  width: 90vw;
+  min-width: 90vw;
   height: 100vh;
 }
 
@@ -33,6 +33,7 @@ body {
 }
 
 figure {
+  cursor: pointer;
   position: relative;
   display: flex;
   align-items: center;
@@ -54,12 +55,16 @@ figure:hover figcaption {
   bottom: 0;
 }
 figure h2 {
+  background-color: rgba(228, 210, 210, 0.45);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
   position: absolute;
   top: 10px;
-  left: 20px;
+  left: 0px;
   margin: 0;
-  padding: 0;
-  color: rgb(224, 224, 224);
+  padding: 10px 300px 10px 10px;
+  text-align: right;
+  color: #000;
   font-size: 30px;
   line-height: 1;
 }
@@ -76,9 +81,9 @@ figure figcaption {
   height: 50%;
   margin: 0;
   padding: 30px;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(228, 210, 210, 0.45);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-  color: rgb(230, 230, 230);
+  color: #000;
   line-height: 1;
   transition: 0.25s;
 }
@@ -87,6 +92,7 @@ figure figcaption h3 {
   padding: 0;
 }
 figure figcaption p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.75;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
