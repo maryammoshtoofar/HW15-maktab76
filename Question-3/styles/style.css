@@ -1,0 +1,71 @@
+body {
+  background-image: url("../images/photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+h1 {
+  font-family: "IBM Plex Serif", serif !important;
+}
+
+.pointer-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 35px;
+}
+
+.custom-text-color {
+  color: #ec494a;
+}
+
+.custom-bg-color {
+  background-color: #ec494a;
+}
+
+.custom-icon-bg {
+  background-color: #e37768;
+}
+
+.custom-link-color {
+  color: #e37768;
+}
+
+.custom-small-font {
+  font-size: 18px;
+}
+
+.circles {
+  margin-left: auto;
+  position: relative;
+  width: 200px;
+  height: 90px;
+}
+
+.big-circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.small-circle {
+  position: absolute;
+  right: 75%;
+  width: 50px;
+  height: 50px;
+}
+.full-circle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+}
+
+.online {
+  right: 0;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+}
